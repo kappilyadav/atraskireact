@@ -1,0 +1,39 @@
+
+.bloggers{
+    text-decoration-color: #fff;
+    color: #fff;
+    #blogs-img{
+        max-width: 35rem;
+    }
+
+    .bloggers-pay{
+        margin: 5%;
+    }
+
+    .hr-blogs{
+        border-color: #fff;
+    }
+
+    .original-amount{
+        margin-top: 1rem;
+        color: rgb(82, 82, 82);
+        text-decoration: line-through;
+    }
+
+    .amount-div{
+        display: flex;
+    }
+    
+    .discount-amount{
+        margin-left: 1rem;
+    }
+
+    .amount-para{
+        line-height: 1.8rem;
+    }
+
+    .theme-para{
+        font-size: 0.8rem;
+
+    }
+}
