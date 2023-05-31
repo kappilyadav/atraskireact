@@ -80,7 +80,7 @@ const Checkout = () => {
   };
 
   return (
-    <div style={{textAlign: "center"}} className="row checkout-page">
+    <div style={{ textAlign: "center" }} className="row checkout-page">
 
       <div style={{ height: "200px", backgroundColor: "#6C7CD0", textAlign: "center", display: "flex", flexDirection: "column", justifyContent: "center" }}>
         <h1 style={{ color: "white", fontSize: "3rem", fontWeight: "700" }}>CHECKOUT</h1>
@@ -116,17 +116,17 @@ const Checkout = () => {
           <button type="submit">Place Order</button>
         </form>
       </div>
-      <div style={{padding: "0% 10%"}} className="col order-details">
+      <div style={{ padding: "0% 10%" }} className="col order-details">
         <h2>Your Order</h2>
-        <div style={{backgroundColor: "gray"}}>
-        <div>
-          <h6>Order:</h6>
-          <input type="text" value={orderDetails} onChange={handleOrderDetailsChange} required />
-        </div>
-        <div>
-          <h6>Quantity:</h6>
-          <input type="number" value={quantity} onChange={handleQuantityChange} required />
-        </div>
+        <div style={{ backgroundColor: "gray" }}>
+          <div>
+            <h6>Order:</h6>
+            <input type="text" value={orderDetails} onChange={handleOrderDetailsChange} required />
+          </div>
+          <div>
+            <h6>Quantity:</h6>
+            <input type="number" value={quantity} onChange={handleQuantityChange} required />
+          </div>
         </div>
       </div>
     </div>
